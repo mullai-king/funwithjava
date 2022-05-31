@@ -1,0 +1,428 @@
+Microsoft Windows [Version 10.0.19044.1706]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\java>javac primenumber.java
+
+D:\java>java primnumber
+Error: Could not find or load main class primnumber
+Caused by: java.lang.NoClassDefFoundError: Primnumber (wrong name: primnumber)
+
+D:\java>javac primenumber.java
+
+D:\java>javac primenumber2.java
+
+D:\java>java primenumber
+Error: Could not find or load main class primenumber
+Caused by: java.lang.NoClassDefFoundError: Primenumber (wrong name: primenumber)
+
+D:\java>dir
+ Volume in drive D has no label.
+ Volume Serial Number is 7258-8C92
+
+ Directory of D:\java
+
+05/24/2022  11:40 PM    <DIR>          .
+05/24/2022  11:40 PM    <DIR>          ..
+05/24/2022  11:40 PM             1,242 Primenumber.class
+05/24/2022  10:39 PM               494 Primenumber.java
+05/24/2022  11:40 PM               680 Primenumber2.java
+05/24/2022  11:40 PM             1,209 Primnumber.class
+               4 File(s)          3,625 bytes
+               2 Dir(s)  54,282,670,080 bytes free
+
+D:\java>java Primenumber.java
+17
+17is prime number
+
+D:\java>java Primenumber
+enter the number
+18
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+
+D:\java>javac primenumber2.java
+
+D:\java>java Primenumber
+enter the number
+19
+1 is not prime number
+2 is prime number
+3 is prime number
+4 is prime number
+5 is prime number
+6 is prime number
+7 is prime number
+8 is prime number
+9 is prime number
+10 is prime number
+11 is prime number
+12 is prime number
+13 is prime number
+14 is prime number
+15 is prime number
+16 is prime number
+17 is prime number
+18 is prime number
+19 is prime number
+
+D:\java>java Primenumber.java
+1
+1is not prime number
+
+D:\java>javac primenumber2.java
+
+D:\java>java Primenumber
+enter the number
+18
+1 is not prime number
+2 is prime number
+3 is prime number
+4 is prime number
+5 is not prime number
+6 is prime number
+7 is not prime number
+8 is prime number
+9 is not prime number
+10 is prime number
+11 is not prime number
+12 is prime number
+13 is not prime number
+14 is prime number
+15 is not prime number
+16 is prime number
+17 is not prime number
+18 is prime number
+
+D:\java>javac primenumber2.java
+
+D:\java>java Primenumber
+enter the number
+15
+15 is prime number
+
+D:\java>javac primenumber2.java
+
+D:\java>java Primenumber
+enter the number
+15
+15 is not prime number
+
+D:\java>javac primenumber2.java
+
+D:\java>java Primenumber
+enter the number
+17
+enter the number
+1 is not prime number
+2 is prime number
+3 is prime number
+4 is not prime number
+5 is prime number
+6 is not prime number
+7 is prime number
+8 is not prime number
+9 is prime number
+10 is not prime number
+11 is prime number
+12 is not prime number
+13 is prime number
+14 is not prime number
+15 is prime number
+16 is not prime number
+17 is prime number
+
+D:\java>javac primenumber2.java
+
+D:\java>java Primenumber.java
+
+7
+7is prime number
+
+D:\java>java Primenumber
+enter the number
+15
+enter the number
+1 is not prime number
+2 is prime number
+3 is prime number
+4ch1
+4 is not prime number
+5j++
+5 is prime number
+6ch1
+6 is not prime number
+7j++
+7 is prime number
+8ch1
+8 is not prime number
+9j++
+9 is prime number
+10ch1
+10 is not prime number
+11j++
+11 is prime number
+12ch1
+12 is not prime number
+13j++
+13 is prime number
+14ch1
+14 is not prime number
+15j++
+15 is prime number
+
+D:\java>javac primenumber2.java
+
+D:\java>java Primenumber
+enter the number
+15
+enter the number
+1j++3
+1j++2
+1 is not prime number
+2j++3
+2j++2
+2 is prime number
+3j++3
+3j++2
+3 is prime number
+4j++3
+4ch1
+4j++2
+4 is not prime number
+5j++3
+5j++
+5j++1
+5j++2
+5 is prime number
+6j++3
+6ch1
+6j++2
+6 is not prime number
+7j++3
+7j++
+7j++1
+7j++2
+7 is prime number
+8j++3
+8ch1
+8j++2
+8 is not prime number
+9j++3
+9j++
+9j++1
+9j++2
+9 is prime number
+10j++3
+10ch1
+10j++2
+10 is not prime number
+11j++3
+11j++
+11j++1
+11j++2
+11 is prime number
+12j++3
+12ch1
+12j++2
+12 is not prime number
+13j++3
+13j++
+13j++1
+13j++2
+13 is prime number
+14j++3
+14ch1
+14j++2
+14 is not prime number
+15j++3
+15j++
+15j++1
+15j++2
+15 is prime number
+
+D:\java>javac primenumber2.java
+primenumber2.java:32: error: variable ch might not have been initialized
+     if(ch==0)
+        ^
+1 error
+
+D:\java>javac primenumber2.java
+
+D:\java>java Primenumber
+enter the number
+16
+enter the number
+1j++2
+1 is not prime number
+2j++2
+2 is prime number
+3j++2
+3 is prime number
+4ch1
+4j++2
+4 is not prime number
+5j++
+5j++1
+5j++2
+5 is prime number
+6ch1
+6j++2
+6 is not prime number
+7j++
+7j++1
+7j++2
+7 is prime number
+8ch1
+8j++2
+8 is not prime number
+9j++
+9j++1
+9j++2
+9 is prime number
+10ch1
+10j++2
+10 is not prime number
+11j++
+11j++1
+11j++2
+11 is prime number
+12ch1
+12j++2
+12 is not prime number
+13j++
+13j++1
+13j++2
+13 is prime number
+14ch1
+14j++2
+14 is not prime number
+15j++
+15j++1
+15j++2
+15 is prime number
+16ch1
+16j++2
+16 is not prime number
+
+D:\java>java Primenumber.java
+15
+15is not prime number
+
+D:\java>javac primenumber2.java
+
+D:\java>java Primenumber
+enter the number
+16
+enter the number
+1 is not prime number
+2 is prime number
+3 is prime number
+4ch1
+4 is not prime number
+5j++
+5j++1
+5 is prime number
+6ch1
+6 is not prime number
+7j++
+7j++1
+7 is prime number
+8ch1
+8 is not prime number
+9j++
+9j++1
+9 is prime number
+10ch1
+10 is not prime number
+11j++
+11j++1
+11 is prime number
+12ch1
+12 is not prime number
+13j++
+13j++1
+13 is prime number
+14ch1
+14 is not prime number
+15j++
+15j++1
+15 is prime number
+16ch1
+16 is not prime number
+
+D:\java>javac primenumber2.java
+
+D:\java>java Primenumber
+enter the number
+16
+enter the number
+1 is not prime number
+2 is prime number
+3 is prime number
+4ch1
+4 is not prime number
+5j++
+5j++1
+5 is prime number
+6ch1
+6 is not prime number
+7j++
+7j++1
+7j++
+7j++1
+7 is prime number
+8ch1
+8 is not prime number
+9j++
+9j++1
+9ch1
+9 is not prime number
+10ch1
+10 is not prime number
+11j++
+11j++1
+11j++
+11j++1
+11j++
+11j++1
+11j++
+11j++1
+11 is prime number
+12ch1
+12 is not prime number
+13j++
+13j++1
+13j++
+13j++1
+13j++
+13j++1
+13j++
+13j++1
+13j++
+13j++1
+13 is prime number
+14ch1
+14 is not prime number
+15j++
+15j++1
+15ch1
+15 is not prime number
+16ch1
+16 is not prime number
+
+D:\java>
